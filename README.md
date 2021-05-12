@@ -17,3 +17,41 @@ class M_biodata extends Model
     protected $allowedFields = ['name', 'address', 'created_at'];
 }
 ```
+
+### Controller CodeIgniter 4
+```php
+<?php
+namespace App\Controllers;
+
+use CodeIgniter\Controller;
+
+use App\Models\M_biodata;
+
+class C_biodata extends Controller
+{
+
+    protected $M_biodata;
+
+    function __construct()
+    {
+        $this->M_biodata = new M_biodata();
+    }
+
+    public function index()
+    {
+        return view('biodata/v_biodata');
+    }
+
+    public function read_biodata()
+    {
+        $data = $this->M_biodata->findAll();
+        echo json_encode($data);
+    }
+
+    public function add_biodata()
+    {
+        return view('biodata/add_biodata');
+    }
+}
+
+```
