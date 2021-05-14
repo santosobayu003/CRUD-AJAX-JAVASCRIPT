@@ -4,7 +4,7 @@ Cread, Read, Update, Delete menggunakan AJAX dan Framework CodeIgniter 4
 2. Download jQuery 3.6.0 di https://jquery.com/download
 3. Download bootstrap 4 di https://getbootstrap.com
 
-## Model CodeIgniter 4
+### Model CodeIgniter 4
 ```php
 <?php
 namespace App\Models;
@@ -58,7 +58,7 @@ class C_biodata extends Controller
 
 ```
 
-#### Add new data
+### Add new data
 
 ```php
 <div class="container">
