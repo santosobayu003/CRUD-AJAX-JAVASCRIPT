@@ -1,6 +1,8 @@
 # CRUD-AJAX-JAVASCRIPT
 Cread, Read, Update, Delete menggunakan AJAX dan Framework CodeIgniter 4
 1. Download framework CodeIgniter 4 di https://codeigniter.com/download atau melalui composer "composer create-project codeigniter4/appstarter CRUD-AJAX"
+2. Download jQuery 3.6.0 di https://jquery.com/download
+3. Download bootstrap 4 di https://getbootstrap.com
 
 ## Model CodeIgniter 4
 ```php
